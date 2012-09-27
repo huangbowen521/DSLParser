@@ -16,10 +16,10 @@ public class Parser {
     private int methodCount;
 
     public String parse(String input) {
-        String result = "";
         input = input.replace("\n", "");
         input = input.replace(" ", "");
         String root = getRootMethod(input);
+        String result = "";
         result += String.format("%s: ROOT\n", root);
         methodCount++;
         String body = getBody(input);

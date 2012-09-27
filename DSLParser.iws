@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c5e432-cf5e-49d6-a095-1786c0dd5403" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTree.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DSLParser.ipr" afterPath="$PROJECT_DIR$/DSLParser.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DSLParser.iws" afterPath="$PROJECT_DIR$/DSLParser.iws" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/thoughtworks/App.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/ParserTree.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" />
     </list>
     <ignored path="DSLParser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -198,10 +197,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="30" selection-start="645" selection-end="645" vertical-scroll-proportion="0.5828221">
+            <state line="11" column="57" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,55 +209,19 @@
       <file leaf-file-name="parserTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="72" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.0">
+            <state line="16" column="51" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Parser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="76" selection-start="939" selection-end="954" vertical-scroll-proportion="0.0">
+            <state line="61" column="24" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.8238748">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pattern.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/regex/Pattern.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="102" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/String.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="0" selection-start="6674" selection-end="6674" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matcher.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/regex/Matcher.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="4" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Regexp.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/misc/Regexp.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -284,8 +247,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" />
       </list>
     </option>
   </component>
@@ -888,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/regex/Pattern.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="102" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/misc/Regexp.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="28" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" />
@@ -907,26 +863,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/regex/Pattern.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="102" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.3172269">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="57" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="72" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.0">
+        <state line="16" column="51" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="76" selection-start="939" selection-end="954" vertical-scroll-proportion="0.0">
+        <state line="61" column="24" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.8238748">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="645" selection-end="645" vertical-scroll-proportion="0.5828221">
-          <folding />
         </state>
       </provider>
     </entry>
