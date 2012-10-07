@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c5e432-cf5e-49d6-a095-1786c0dd5403" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Console.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/ConsoleTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/parserTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/ParserTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DSLParser.iws" afterPath="$PROJECT_DIR$/DSLParser.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Console.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Console.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" />
     </list>
     <ignored path="DSLParser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -249,10 +244,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Console.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Console.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Console.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="42" selection-start="836" selection-end="836" vertical-scroll-proportion="0.58614564">
+            <state line="47" column="79" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -281,10 +276,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MethodNode.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MethodNode.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="89" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+            <state line="20" column="34" selection-start="446" selection-end="446" vertical-scroll-proportion="0.54347825">
               <folding />
             </state>
           </provider>
@@ -311,12 +306,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/ConsoleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/Console.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java" />
       </list>
     </option>
   </component>
@@ -800,7 +795,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984064" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -811,8 +806,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1961207" sideWeight="0.6716604" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994253" sideWeight="0.6716604" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18175288" sideWeight="0.812749" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.187251" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18175288" sideWeight="0.79814076" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20185924" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -991,13 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="89" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="49" selection-start="340" selection-end="373" vertical-scroll-proportion="0.0">
@@ -1019,7 +1007,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Console.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="42" selection-start="836" selection-end="836" vertical-scroll-proportion="0.58614564">
+        <state line="47" column="79" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="34" selection-start="446" selection-end="446" vertical-scroll-proportion="0.54347825">
           <folding />
         </state>
       </provider>

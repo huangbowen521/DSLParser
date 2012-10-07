@@ -10,21 +10,15 @@ package com.thoughtworks;
 public class MethodNode {
     private final String invoker;
     private final String name;
-    private int invokeLevel;
 
     public MethodNode(String invoker, String name) {
 
         this.invoker = invoker;
         this.name = name;
-        this.invokeLevel = invokeLevel;
     }
 
     public String getInvoker() {
         return invoker;
-    }
-
-    public int getInvokeLevel() {
-        return invokeLevel;
     }
 
     public String getName() {

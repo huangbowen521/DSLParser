@@ -18,22 +18,25 @@ public class Console {
         return result;
     }
 
-    private String parseMethod(String input, MethodNode node, Integer invokeLevel) {
+    private String parseMethod(String input, MethodNode invokeNode, Integer invokeLevel) {
         MethodNode currentNode = Parser.getMethodNode(input);
+        String result = getMethodInvokeString(invokeNode, invokeLevel, currentNode);
 
-        String result = getMethodInvokeString(node, invokeLevel, currentNode);
+        result += processMethodBody(input, invokeLevel, currentNode);
 
+        return result;
+    }
+
+    private String processMethodBody(String input, Integer invokeLevel, MethodNode currentNode) {
         String body = Parser.getMethodBody(input);
         String[] statements = Parser.splitMethodBody(body);
-
         if (statements.length > 0) {
             invokeLevel++;
         }
-
+        String result = "";
         for (int i = 0; i < statements.length; i++) {
             result += parseMethod(statements[i], currentNode, invokeLevel);
         }
-
         return result;
     }
 
