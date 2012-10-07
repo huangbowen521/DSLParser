@@ -13,13 +13,13 @@ import static org.junit.Assert.assertThat;
  * Time: 5:35 PM
  * To change this template use File | Settings | File Templates.
  */
-public class parserTest {
+public class ConsoleTest {
 
-    private Parser parser;
+    private Console console;
 
     @Before
     public void setUp() throws Exception {
-        parser = new Parser();
+        console = new Console();
     }
 
     @Test
@@ -29,7 +29,7 @@ public class parserTest {
         String input = "method0";
 
         // when
-        String result = parser.parse(input);
+        String result = console.parse(input);
 
         // then
         assertThat(result, is("method0: ROOT\n" +
@@ -45,7 +45,7 @@ public class parserTest {
                 "}";
 
         // when
-        String result = parser.parse(input);
+        String result = console.parse(input);
 
         // then
         assertThat(result, is("method0: ROOT\n" +
@@ -63,7 +63,7 @@ public class parserTest {
                 "}";
 
         // when
-        String result = parser.parse(input);
+        String result = console.parse(input);
 
         // then
         assertThat(result, is("method0: ROOT\n" +
@@ -74,7 +74,7 @@ public class parserTest {
 
 
     @Test
-    public  void shouldReturnCorrectResultWhenAcceptAMethodWhichContianDefine()
+    public  void shouldReturnCorrectResultWhenAcceptAMethodWhichContainDefine()
     {
         // given
         String input = "method0{\n" +
@@ -85,7 +85,7 @@ public class parserTest {
                 "}";
 
         // when
-        String result = parser.parse(input);
+        String result = console.parse(input);
 
         // then
         assertThat(result, is("method0: ROOT\n" +
@@ -96,56 +96,5 @@ public class parserTest {
     }
 
 
-    @Test
-    public void shouldGetTheRestOfPartIntheMethod()
-    {
-          // given
-        String input = "method0{" +
-                "A.method1();" +
-                "}";
-
-        // when
-        String result = parser.getBody(input);
-
-        // then
-        assertThat(result, is("A.method1();"));
-    }
-
-    @Test
-    public void shouldSplitMethodBody()
-    {
-        // given
-        String input =
-                        " A.method1(){" +
-                        "  C.method11()" +
-                        " }" +
-                        " B.method2();" +
-                        "";
-
-        // when
-        String[] result = parser.splitBody(input);
-
-        // then
-        assertThat(result.length, is(2));
-        assertThat(result[0],is(" A.method1(){" +
-                "  C.method11()" +
-                " }"));
-        assertThat(result[1],is(" B.method2()"));
-    }
-
-    @Test
-    public void shouldGetClassAndMethod()
-    {
-        // given
-        String input = "A.method1()";
-
-        // when
-        String[] result = parser.splitToGetClass(input);
-
-        // then
-        assertThat(result.length,is(2));
-              assertThat(result[0],is("A"));
-        assertThat(result[1], is("method1"));
-    }
 
 }

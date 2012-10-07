@@ -10,14 +10,12 @@ package com.thoughtworks;
 public class MethodNode {
     private final String invoker;
     private final String name;
-    private final String body;
     private int invokeLevel;
 
-    public MethodNode(String invoker, String name, String body, Integer invokeLevel) {
+    public MethodNode(String invoker, String name) {
 
         this.invoker = invoker;
         this.name = name;
-        this.body = body;
         this.invokeLevel = invokeLevel;
     }
 
@@ -27,5 +25,9 @@ public class MethodNode {
 
     public int getInvokeLevel() {
         return invokeLevel;
+    }
+
+    public String getName() {
+        return name;
     }
 }

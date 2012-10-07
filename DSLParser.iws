@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c5e432-cf5e-49d6-a095-1786c0dd5403" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Console.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/ConsoleTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/parserTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/ParserTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DSLParser.iws" afterPath="$PROJECT_DIR$/DSLParser.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java" />
     </list>
     <ignored path="DSLParser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -206,10 +209,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parserTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java">
+      <file leaf-file-name="ConsoleTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/ConsoleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="0" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
+            <state line="97" column="0" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -246,10 +249,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Console.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Console.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="42" selection-start="836" selection-end="836" vertical-scroll-proportion="0.58614564">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="31" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.5404814">
+            <state line="34" column="30" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1466#1474#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParserTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="49" selection-start="340" selection-end="373" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -260,7 +284,7 @@
       <file leaf-file-name="MethodNode.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="26" selection-start="594" selection-end="605" vertical-scroll-proportion="0.0">
+            <state line="12" column="89" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -287,9 +311,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTree.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/ConsoleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/Console.java" />
       </list>
     </option>
   </component>
@@ -481,13 +508,16 @@
     <view id="ClasspathPane" />
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/thoughtworks" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -496,45 +526,23 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.thoughtworks" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.Parser" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.thoughtworks" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.parserTest.shouldReturnCorrectResultWhenAcceptAMethodWhichContianDefine">
-    <configuration default="false" name="parserTest.shouldSplitMethodBody" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.ConsoleTest">
+    <configuration default="false" name="ConsoleTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="DSLParser" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.parserTest" />
-      <option name="METHOD_NAME" value="shouldSplitMethodBody" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="parserTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="DSLParser" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.parserTest" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.ConsoleTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -551,12 +559,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="parserTest.shouldGetClassAndMethod" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="ConsoleTest.shouldGetClassAndMethod" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="DSLParser" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.parserTest" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.ConsoleTest" />
       <option name="METHOD_NAME" value="shouldGetClassAndMethod" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -573,12 +581,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="parserTest.shouldReturnCorrectRootMethodWhenAcceptAEmptyMethod" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="ConsoleTest.shouldReturnCorrectRootMethodWhenAcceptAEmptyMethod" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="DSLParser" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.parserTest" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.ConsoleTest" />
       <option name="METHOD_NAME" value="shouldReturnCorrectRootMethodWhenAcceptAEmptyMethod" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -601,13 +609,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="parserTest.shouldReturnCorrectResultWhenAcceptAMethodWhichContianDefine" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="ConsoleTest.shouldReturnCorrectResultWhenAcceptAMethodWhichContainDefine" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="DSLParser" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.parserTest" />
-      <option name="METHOD_NAME" value="shouldReturnCorrectResultWhenAcceptAMethodWhichContianDefine" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.ConsoleTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectResultWhenAcceptAMethodWhichContainDefine" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -626,6 +634,28 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParserTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="DSLParser" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.ParserTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -704,11 +734,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.parserTest.shouldSplitMethodBody" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.parserTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.parserTest.shouldGetClassAndMethod" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.parserTest.shouldReturnCorrectRootMethodWhenAcceptAEmptyMethod" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.parserTest.shouldReturnCorrectResultWhenAcceptAMethodWhichContianDefine" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ConsoleTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ConsoleTest.shouldGetClassAndMethod" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ConsoleTest.shouldReturnCorrectRootMethodWhenAcceptAEmptyMethod" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConsoleTest.shouldReturnCorrectResultWhenAcceptAMethodWhichContainDefine" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ParserTest" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -770,6 +800,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984064" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -780,11 +811,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1961207" sideWeight="0.6716604" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994253" sideWeight="0.6716604" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18175288" sideWeight="0.6719788" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32802126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18175288" sideWeight="0.812749" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.187251" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -924,18 +954,6 @@
         <state line="39" column="102" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.3172269" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="57" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="-6.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
@@ -954,26 +972,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="26" selection-start="594" selection-end="605" vertical-scroll-proportion="0.0">
+        <state line="11" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="-6.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/parserTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
+        <state line="11" column="57" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/ConsoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="0" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/MethodNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="89" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/ParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="49" selection-start="340" selection-end="373" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="31" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.5404814">
+        <state line="34" column="30" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1466#1474#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="42" selection-start="836" selection-end="836" vertical-scroll-proportion="0.58614564">
+          <folding />
         </state>
       </provider>
     </entry>
