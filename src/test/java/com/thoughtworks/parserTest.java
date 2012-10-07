@@ -73,6 +73,28 @@ public class parserTest {
     }
 
 
+    @Test
+    public  void shouldReturnCorrectResultWhenAcceptAMethodWhichContianDefine()
+    {
+        // given
+        String input = "method0{\n" +
+                " A.method1(){\n" +
+                "  C.method11()\n" +
+                " }\n" +
+                " B.method2();\n" +
+                "}";
+
+        // when
+        String result = parser.parse(input);
+
+        // then
+        assertThat(result, is("method0: ROOT\n" +
+                ">method1: ROOT -> A\n" +
+                ">>method11: A -> C\n" +
+                ">method2: ROOT -> B\n" +
+                "Method(s) number: 4"));
+    }
+
 
     @Test
     public void shouldGetTheRestOfPartIntheMethod()
@@ -94,16 +116,21 @@ public class parserTest {
     {
         // given
         String input =
-                "A.method1();" +
-                "B.method2();";
+                        " A.method1(){" +
+                        "  C.method11()" +
+                        " }" +
+                        " B.method2();" +
+                        "";
 
         // when
         String[] result = parser.splitBody(input);
 
         // then
         assertThat(result.length, is(2));
-        assertThat(result[0],is("A.method1()"));
-        assertThat(result[1],is("B.method2()"));
+        assertThat(result[0],is(" A.method1(){" +
+                "  C.method11()" +
+                " }"));
+        assertThat(result[1],is(" B.method2()"));
     }
 
     @Test
